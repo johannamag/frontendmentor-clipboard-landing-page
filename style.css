@@ -170,3 +170,9 @@ section {
 .access {
   padding: 40px 0px;
 }
+
+@media screen and (max-width: 933px) {
+  .access-img {
+    width: 100%;
+  }
+}
