@@ -171,7 +171,9 @@ section {
 /* Access Section */
 
 .track,
-.access {
+.access,
+.charge,
+.companies {
   padding: 40px 0px;
 }
 
@@ -202,4 +204,12 @@ section {
   .charge-grid {
     grid-template-columns: repeat(1, 1fr);
   }
+}
+
+/* Companies Section */
+
+.companies-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
