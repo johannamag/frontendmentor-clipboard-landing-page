@@ -145,3 +145,23 @@ section {
 .title-desc:last-child {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 988px) {
+  .track-img {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 748px) {
+  .track-flex {
+    flex-direction: column;
+  }
+  .track-img {
+    width: 100%;
+    transform: translateX(0);
+  }
+  .track-right {
+    margin-top: 50px;
+    text-align: center;
+  }
+}
