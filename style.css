@@ -109,3 +109,39 @@ section {
     width: 100%;
   }
 }
+
+.subheading {
+  color: var(--dark-blue);
+  font-size: 2.2rem;
+  margin-bottom: 25px;
+}
+
+.track-flex {
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.track-img {
+  flex: 1;
+  transform: translateX(-25%);
+}
+
+.track-right {
+  flex: 1;
+  text-align: left;
+}
+
+.title {
+  color: var(--dark-blue);
+  margin-bottom: 10px;
+}
+
+.title-desc {
+  line-height: 26px;
+  margin-bottom: 40px;
+}
+
+.title-desc:last-child {
+  margin-bottom: 0;
+}
