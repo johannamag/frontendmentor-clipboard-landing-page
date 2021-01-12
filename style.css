@@ -182,3 +182,18 @@ section {
 }
 
 /* Charge Section */
+
+.charge-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  align-items: center;
+}
+
+.charge-img {
+  width: 50px;
+}
+
+.title-center {
+  margin-top: 20px;
+}
