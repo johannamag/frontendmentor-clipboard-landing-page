@@ -213,3 +213,29 @@ section {
   align-items: center;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 859px) {
+  .companies-logo {
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 641px) {
+  .companies-logo {
+    width: 70px;
+  }
+}
+
+@media screen and (max-width: 549px) {
+  .companies-flex {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .companies-logo {
+    width: 150px;
+    margin-bottom: 40px;
+  }
+  .companies-logo:last-child {
+    margin-bottom: 0;
+  }
+}
