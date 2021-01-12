@@ -173,7 +173,8 @@ section {
 .track,
 .access,
 .charge,
-.companies {
+.companies,
+.clipboard {
   padding: 40px 0px;
 }
 
@@ -238,4 +239,16 @@ section {
   .companies-logo:last-child {
     margin-bottom: 0;
   }
+}
+
+/* Clipboard and Signature Section */
+
+.attribution a {
+  color: var(--blue);
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+}
+
+.attribution a:hover {
+  color: var(--cyan);
 }
