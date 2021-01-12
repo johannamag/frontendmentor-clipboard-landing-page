@@ -197,3 +197,9 @@ section {
 .title-center {
   margin-top: 20px;
 }
+
+@media screen and (max-width: 755px) {
+  .charge-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
